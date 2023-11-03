@@ -1,0 +1,32 @@
+body{
+    background-color: #000;
+}
+.bg-red {
+    background-color: #fd4556;
+  }
+  
+  /* Texto blanco */
+  .text-white {
+    color: #fff;
+  }
+  
+  /* Texto rojo oscuro */
+  .text-red-dark {
+    color: #bd3944;
+  }
+  
+  /* Fondo marrón oscuro */
+  .bg-brown-dark {
+    background-color: #53212b;
+  }
+  
+  /* Fondo beige claro */
+  .bg-beige-light {
+    background-color: #fffbf5;
+  }
+  
+  /* Texto negro */
+  .text-black {
+    color: #000;
+  }
+  
