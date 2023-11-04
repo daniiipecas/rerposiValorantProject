@@ -19,12 +19,11 @@
           <img :src="personaje.bustPortrait" class="img-thumbnail w-50 ml-3" alt="Bust Portrait">
           <div>
             <h3 class="card-title">{{ personaje.displayName }}</h5>
-            <p class="card-text custom-text text-red-dark"><strong class="text-black">Descripción:</strong> {{ personaje.description }}</p> 
-            <p class="card-text custom-text text-red-dark"><strong class="text-black">Habilidad Especial: </strong>{{ personaje.abilities.special ? personaje.abilities.special : "No tiene habilidad especial" }}</p>
-            <p class="card-text custom-text text-red-dark"><strong class="text-black">Desarrollador: </strong>{{ personaje.developerName }}</p> 
-            <p class="card-text custom-text text-red-dark"><strong class="text-black">Rol: </strong>{{ personaje.role.displayName }}</p> 
-            <p class="card-text custom-text text-red-dark"><strong class="text-black">Descripción del Rol: </strong>{{ personaje.role.description }}</p> 
-            <strong class="text-black">Habilidades:</strong>
+            <p class="card-text custom-text text-red-dark"><strong class="text-black">Description:</strong> {{ personaje.description }}</p> 
+            <p class="card-text custom-text text-red-dark"><strong class="text-black">Special Abilities: </strong>{{ personaje.abilities.special ? personaje.abilities.special : "No tiene habilidad especial" }}</p>
+            <p class="card-text custom-text text-red-dark"><strong class="text-black">Role: </strong>{{ personaje.role.displayName }}</p> 
+            <p class="card-text custom-text text-red-dark"><strong class="text-black">Role Description: </strong>{{ personaje.role.description }}</p> 
+            <strong class="text-black">Abilities:</strong>
             <ul>
               <li v-for="habilidad in personaje.abilities">
                 <h6 class="text-red-dark">{{ habilidad.displayName }}</h6>
@@ -34,15 +33,12 @@
         </div>
       </div>
     </div>
-    <div v-else>
-      <p class="text-info text-black">Cargando detalles del agente...</p> 
-    </div>
   </div>
 </main>
 <footer>
 
 </footer>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <script src= "https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.prod.js"></script>
   <script src="vue.js"></script>
 </body>
 </html>
